@@ -1,10 +1,8 @@
 {
-  "category": "MYTHOLOGICAL_CREATURE",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/fenrir",
     "maintainers": [
       {
@@ -18,300 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "fenrir",
     "name": "Fenrir",
-    "aliases": [
-      {
-        "name": "Fenrisúlfr",
-        "language": "Old Norse",
-        "meaning": "Fenris-wolf"
-      },
-      {
-        "name": "Hróðvitnir",
-        "language": "Old Norse",
-        "meaning": "Fame-wolf"
-      },
-      {
-        "name": "Vánagandr",
-        "language": "Old Norse",
-        "meaning": "Monster of the River Ván"
-      }
-    ],
+    "aliases": [],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Monstrous Beast",
+    "subcategory": "Giant Wolf",
     "tags": [
-      "wolf",
-      "norse-mythology",
-      "ragnarok",
-      "loki",
-      "prophecy",
-      "chaos",
-      "doom"
+      "folklore",
+      "mythology"
     ],
-    "status": "mythological",
+    "status": "documented",
     "description": {
-      "summary": "Monstrous wolf from Norse mythology, son of Loki, destined to kill Odin at Ragnarök. Bound by the gods with the magical ribbon Gleipnir after growing too dangerous.",
-      "full": "Fenrir (also called Fenrisúlfr) is a gigantic and monstrous wolf in Norse mythology, son of the trickster god Loki and the jötunn Angrboða. Brother to Jörmungandr (the World Serpent) and Hel (goddess of the underworld), Fenrir grew so large and dangerous that the gods decided he must be bound. After breaking two chains, Fenrir was finally restrained by Gleipnir, a magical ribbon made from impossible things. The binding cost the god Týr his right hand when Fenrir bit it off, realizing he'd been tricked. Prophecy states that at Ragnarök (the end of the world), Fenrir will break free, kill Odin the Allfather, and be slain in turn by Víðarr, Odin's son. Fenrir represents inevitable doom, the consequences of fear and broken trust, and chaos that cannot be permanently contained. His myth is central to the Norse understanding of fate, the limits of divine power, and the cyclical nature of destruction and renewal."
+      "summary": "Fenrir (also called Fenrisúlfr) is a gigantic and monstrous wolf in Norse mythology, son of the trickster god Loki and the jötunn Angrboða.",
+      "full": "Fenrir (also called Fenrisúlfr) is a gigantic and monstrous wolf in Norse mythology, son of the trickster god Loki and the jötunn Angrboða. Brother to Jörmungandr (the World Serpent) and Hel (goddess of the underworld), Fenrir grew so large and dangerous that the gods decided he must be bound. After breaking two chains, Fenrir was finally restrained by **Gleipnir**, a magical ribbon made from impossible things. The binding cost the god Týr his right hand when Fenrir bit it off, realizing he'd been tricked. Prophecy states that at **Ragnarök** (the end of the world), Fenrir will break free, kill Odin the Allfather, and be slain in turn by Víðarr, Odin's son. Fenrir represents inevitable doom, the consequences of fear and broken trust, and chaos that cannot be permanently contained."
     },
     "etymology": {
-      "origin": "Old Norse 'Fenrir', possibly from 'fen' meaning 'marsh/swamp'",
-      "meaning": "Fen-dweller or marsh-wolf",
-      "alternate_names": "Fenrisúlfr (Fenris-wolf), Hróðvitnir (Fame-wolf), Vánagandr (Monster of the River Ván)"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "Monstrous Beast",
-      "subtype": "Giant Wolf",
-      "variant": "Norse"
+      "type": "Giant Wolf",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "jormungandr",
-        "name": "Jörmungandr",
-        "relationship": "sibling",
-        "description": "World Serpent, brother of Fenrir"
-      },
-      {
-        "id": "sleipnir",
-        "name": "Sleipnir",
-        "relationship": "cousin",
-        "description": "Odin's eight-legged horse, also child of Loki"
-      },
-      {
-        "id": "werewolves",
-        "name": "Werewolves",
-        "relationship": "thematic",
-        "description": "Wolf-human transformation mythology"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": "Enormous wolf of terrifying size and power",
-      "size": "Grows continuously; at Ragnarök, jaws stretch from earth to sky",
-      "features": [
-        {
-          "feature": "Massive jaws",
-          "description": "Can stretch from earth to heaven",
-          "frequency": "always"
-        },
-        {
-          "feature": "Enormous size",
-          "description": "Grows perpetually larger and more dangerous",
-          "frequency": "always"
-        },
-        {
-          "feature": "Unstoppable strength",
-          "description": "Broke two chains before being bound by Gleipnir",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Wolf of ever-increasing size, destined to devour Odin"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Continuous growth",
-        "description": "Grows larger and more powerful without limit",
-        "frequency": "always",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Immense strength",
-        "description": "Broke chains Læðingr and Dromi; will break Gleipnir at Ragnarök",
-        "frequency": "always",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Prophetic destiny",
-        "description": "Fated to kill Odin and be killed by Víðarr",
-        "frequency": "once",
-        "evidence_level": "mythological"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "disposition": "hostile",
-      "temperament": "Increasingly dangerous; betrayed by gods' deception",
-      "notable_acts": [
-        "Raised among the Æsir gods",
-        "Broke chains Læðingr and Dromi",
-        "Bit off Týr's hand when bound by Gleipnir",
-        "Prophesied to kill Odin at Ragnarök",
-        "Will be killed by Víðarr (Odin's son)"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
-  "mythology": {
-    "origin_story": {
-      "birth": "Born to Loki and the jötunn Angrboða in Jötunheimr (land of giants)",
-      "parents": {
-        "father": "Loki (trickster god)",
-        "mother": "Angrboða (jötunn/giantess)"
-      },
-      "siblings": [
-        {
-          "name": "Jörmungandr",
-          "description": "The World Serpent, thrown into the ocean by Odin"
-        },
-        {
-          "name": "Hel",
-          "description": "Goddess of the underworld, ruler of the realm of the dead"
-        }
-      ],
-      "context": "The three children of Loki and Angrboða represent cosmic threats to the gods"
-    },
-    "major_myths": [
-      {
-        "title": "Raising of Fenrir",
-        "description": "The Æsir brought young Fenrir to Asgard to watch over him. Only Týr was brave enough to feed him, but Fenrir grew alarmingly large and dangerous."
-      },
-      {
-        "title": "The Binding Attempts",
-        "description": "The gods forged chains Læðingr and Dromi to bind Fenrir. He broke both easily, growing more suspicious of the gods' intentions."
-      },
-      {
-        "title": "Gleipnir and Týr's Sacrifice",
-        "description": "The dwarves crafted Gleipnir from six impossible things: cat's footfall, woman's beard, mountain roots, bear's sinews, fish's breath, and bird's spittle. Fenrir agreed to be bound only if a god placed their hand in his mouth as pledge. Týr volunteered, and when Fenrir couldn't break free, he bit off Týr's hand."
-      },
-      {
-        "title": "Ragnarök Prophecy",
-        "description": "At Ragnarök, Fenrir will break free. His jaws will stretch from earth to sky. He will swallow Odin, killing the Allfather. Víðarr will then kill Fenrir, avenging his father."
-      }
-    ],
-    "symbolism": [
-      {
-        "concept": "Inevitable doom",
-        "explanation": "Represents fate that cannot be avoided despite all efforts"
-      },
-      {
-        "concept": "Broken trust",
-        "explanation": "The gods' deception of Fenrir creates the very enemy they feared"
-      },
-      {
-        "concept": "Consequences of fear",
-        "explanation": "The gods' fear of prophecy leads them to create their own doom"
-      },
-      {
-        "concept": "Chaos bound",
-        "explanation": "Wild nature and chaos that can be restrained but never eliminated"
-      }
-    ],
-    "cultural_significance": "Fenrir embodies the Norse understanding that fate cannot be escaped, that actions born of fear create their own fulfillment, and that even gods are subject to cosmic destiny. Central figure in Ragnarök mythology."
-  },
-
   "distribution": {
-    "cultural_range": {
-      "origin": "Norse/Scandinavian mythology",
-      "geographic_focus": [
-        "Scandinavia (Norway, Sweden, Denmark, Iceland)",
-        "Germanic regions",
-        "Viking cultural sphere"
-      ],
-      "spread": "Across Norse and Germanic cultural areas during Viking Age"
+    "range": {
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "mythological_locations": [
-      {
-        "name": "Asgard",
-        "description": "Where Fenrir was raised and bound"
-      },
-      {
-        "name": "Island in lake Ámsvartnir",
-        "description": "Where Fenrir is bound until Ragnarök"
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
       }
-    ]
+    }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Norse/Germanic mythology; central to Ragnarök prophecy",
-      "earliest_sources": "Poetic Edda (13th century from earlier oral tradition)",
-      "development": "Part of Loki mythology and end-times prophecy"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Viking Age (8th-11th century)",
-        "event": "Oral tradition",
-        "significance": "Fenrir myths transmitted through skaldic poetry"
-      },
-      {
-        "date": "~1220 CE",
-        "event": "Prose Edda",
-        "significance": "Snorri Sturluson records detailed Fenrir myths"
-      },
-      {
-        "date": "13th century CE",
-        "event": "Poetic Edda compiled",
-        "significance": "Völuspá and other poems detail Ragnarök including Fenrir"
-      },
-      {
-        "date": "Modern Era",
-        "event": "Cultural revival",
-        "significance": "Fenrir in fantasy media, games, heavy metal imagery"
-      }
-    ]
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
-    "ancient_sources": [
-      "Poetic Edda (Völuspá, Grímnismál, Lokasenna)",
-      "Prose Edda (Gylfaginning)",
-      "Heimskringla"
-    ],
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
+    },
     "popular_culture": {
-      "literature": [
-        "Marvel Comics (Asgardian myths)",
-        "Neil Gaiman's Norse Mythology",
-        "Fantasy novels featuring Norse mythology"
-      ],
-      "film_tv": [
-        "Marvel Cinematic Universe (referenced)",
-        "God of War video game series",
-        "Vikings and Norse-themed media"
-      ],
-      "games": [
-        "God of War (2018) and God of War Ragnarök (2022)",
-        "Assassin's Creed Valhalla",
-        "Smite, League of Legends (playable character)"
-      ],
-      "other": [
-        "Heavy metal band names and imagery",
-        "Symbol of unstoppable force and wild nature",
-        "Neo-pagan and Heathen symbolism"
-      ]
-    },
-    "modern_usage": "Symbol of wild, untameable nature, inevitable fate, and rebellion against unjust restraint. Popular in heavy metal culture and Norse revival movements."
-  },
-
-  "sources": [
-    {
-      "id": "poetic-edda",
-      "type": "ancient_text",
-      "title": "Poetic Edda",
-      "date": "13th century (compiled from earlier sources)",
-      "description": "Primary source including Völuspá (Ragnarök prophecy)"
-    },
-    {
-      "id": "prose-edda",
-      "type": "ancient_text",
-      "title": "Prose Edda",
-      "authors": ["Snorri Sturluson"],
-      "date": "~1220",
-      "description": "Detailed account of Fenrir's binding and role in Ragnarök"
-    },
-    {
-      "id": "lindow-2001",
-      "type": "book",
-      "title": "Norse Mythology: A Guide to Gods, Heroes, Rituals, and Beliefs",
-      "authors": ["John Lindow"],
-      "publication": "Oxford University Press",
-      "date": "2001",
-      "isbn": "978-0195153828"
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
-  ]
+  },
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
